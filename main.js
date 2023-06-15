@@ -43,7 +43,7 @@ let scores = {
     })
     .catch(error => {
       // Handle any errors
-      console.error('Error:', error);
+      //console.error('Error:', error);
     });
   }
   
@@ -62,7 +62,7 @@ let scores = {
     })
     .catch(error => {
       // Handle any errors
-      console.error('Error:', error);
+      //console.error('Error:', error);
     });
   }
   
