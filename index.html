@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Score Counter</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Score Counter</h1>
+    
+    <div id="scores">
+        <h2>Falco: <span id="falco-score">0</span></h2>
+        <button onclick="addScore('falco', 1)">Add +1</button>
+        <button onclick="subtractScore('falco', 10)">Subtract -10</button>
+    </div>
+
+    <div id="scores">
+        <h2>Active: <span id="active-score">0</span></h2>
+        <button onclick="addScore('active', 1)">Add +1</button>
+        <button onclick="subtractScore('active', 10)">Subtract -10</button>
+    </div>
+
+    <div id="scores">
+        <h2>Adramus: <span id="adramus-score">0</span></h2>
+        <button onclick="addScore('adramus', 1)">Add +1</button>
+        <button onclick="subtractScore('adramus', 10)">Subtract -10</button>
+    </div>
+
+    <div id="scores">
+        <h2>Darkreaver: <span id="darkreaver-score">0</span></h2>
+        <button onclick="addScore('darkreaver', 1)">Add +1</button>
+        <button onclick="subtractScore('darkreaver', 10)">Subtract -10</button>
+    </div>
+</body>
+</html>
